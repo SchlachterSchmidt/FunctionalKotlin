@@ -1,7 +1,5 @@
 package _02higherorderfunctions
 
-import _1intro.one
-
 fun main(args: Array<String>) {
 
     // this is a lambda with signature () -> kotlin.String
@@ -28,6 +26,6 @@ fun main(args: Array<String>) {
     oneArg.invoke("hello")
 
     // by convention, unused arguments are symbolized by an underscore
-    val twoArgs = { s: String, _: String -> s}
+    val twoArgs = { s: String, _: String -> s }
     println(twoArgs("a", "b"))
 }
