@@ -1,4 +1,4 @@
-package _1intro
+package _01intro
 
 fun main(args: Array<String>) {
     println(fib(0))
