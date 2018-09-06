@@ -31,6 +31,4 @@ fun main(args: Array<String>) {
         val text = "${ job1.await() } ${ job2.await() }"
         println(text)
     }
-
-
 }
